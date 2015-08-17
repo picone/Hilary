@@ -1,11 +1,16 @@
 <resources>
+    <!--憋足的英文...还看~ -->
     <string name="app_name">Hilary</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="action_exit">Exit</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="next">NEXT</string>
+    <string name="last">LAST</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="text1">谁说程序猿不懂得浪漫.\n这说得太对了,至少我是.\n\n不过…</string>
+    <string name="text2">我们在一起的200多天里\n虽然矛盾很多,但是我过得还算开心.\n很喜欢跟你在一起的日子(我就是变态).\n很喜欢跟你一起,比如…</string>
+    <string name="text3">一起写代码…</string>
+    <string name="demo">public class demo{\n\tpublic static void main(String args[]){\n\t\tSystem.out.println(\"I love U.\");\n\t}\n}</string>
+    <string name="text4">一起手拖手走校道…</string>
+    <string name="text5">一起玩消星星(这星星有点丑,但算是消星星原型了)…</string>
 </resources>
