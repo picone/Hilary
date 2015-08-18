@@ -1,17 +1,16 @@
 <resources>
-    <!--憋足的英文...还看~ -->
-    <string name="app_name">Hilary</string>
+    <string name="app_name">=_=//</string>
 
-    <string name="action_exit">Exit</string>
+    <string name="action_exit">退出</string>
 
-    <string name="next">NEXT</string>
-    <string name="last">LAST</string>
-    <string name="play">Play</string>
-    <string name="stop">Stop</string>
-    <string name="send">Send</string>
-    <string name="call">Call</string>
+    <string name="next">下一页</string>
+    <string name="last">上一页</string>
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="send">发送</string>
+    <string name="call">拨打我电话</string>
 
-    <string name="reset">You will reset the game</string>
+    <string name="reset">你确定重置游戏吗?</string>
 
     <string name="text1">谁说程序猿不懂得浪漫.\n这说得太对了,至少我是.\n我不会浪漫,不会哄你开心…</string>
     <string name="text2">我们在一起的200多天里\n虽然矛盾很多,但是我过得还算开心.\n很喜欢跟你在一起的日子(我就是变态).\n很喜欢跟你一起,比如…</string>
@@ -21,5 +20,4 @@
     <string name="text5">一起玩消星星(这星星有点丑,但算是消星星原型了)…</string>
     <string name="text6">一起听音乐…</string>
     <string name="text7">我真的很开心.\n接下来的日子,我会努力改掉以前的缺点.\n我真的很希望我们能正常点.\n我只想大家都过得开心点,幸福点…\n\n看完后有什么想说的?</string>
-
 </resources>
