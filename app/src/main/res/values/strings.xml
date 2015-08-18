@@ -11,7 +11,7 @@
     <string name="send">Send</string>
     <string name="call">Call</string>
 
-    <string name="hint_ask">You can write something here and I can receive it if you send.</string>
+    <string name="reset">You will reset the game</string>
 
     <string name="text1">谁说程序猿不懂得浪漫.\n这说得太对了,至少我是.\n我不会浪漫,不会哄你开心…</string>
     <string name="text2">我们在一起的200多天里\n虽然矛盾很多,但是我过得还算开心.\n很喜欢跟你在一起的日子(我就是变态).\n很喜欢跟你一起,比如…</string>

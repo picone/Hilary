@@ -1,6 +1,8 @@
 package com.chien.hilary;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -10,6 +12,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -36,12 +39,23 @@ public class StarSurfaceView extends SurfaceView implements SurfaceHolder.Callba
                 Color.BLUE,
                 Color.DKGRAY
         };
-        Random rnd=new Random();
-        for(int i=0;i<ROW;i++){
-            for(int j=0;j<COL;j++){
-                stars[i][j]=rnd.nextInt(colors.length);
+        init();
+
+        setOnClickListener(new OnClickListener(){
+            @Override
+            public void onClick(View v){
+                new AlertDialog.Builder(getContext())
+                        .setTitle(android.R.string.dialog_alert_title)
+                        .setIcon(R.mipmap.ic_launcher).setMessage(R.string.reset)
+                        .setPositiveButton(android.R.string.ok,new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog,int which){
+                        init();
+                        redraw();
+                    }
+                }).setNegativeButton(android.R.string.cancel,null).show();
             }
-        }
+        });
     }
 
     @Override
@@ -134,6 +148,15 @@ public class StarSurfaceView extends SurfaceView implements SurfaceHolder.Callba
             }
         }
         if(!exists)list.add(data);
+    }
+
+    private void init(){
+        Random rnd=new Random();
+        for(int i=0;i<ROW;i++){
+            for(int j=0;j<COL;j++){
+                stars[i][j]=rnd.nextInt(colors.length);
+            }
+        }
     }
 
     @Override
