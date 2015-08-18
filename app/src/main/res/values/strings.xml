@@ -8,12 +8,18 @@
     <string name="last">LAST</string>
     <string name="play">Play</string>
     <string name="stop">Stop</string>
+    <string name="send">Send</string>
+    <string name="call">Call</string>
 
-    <string name="text1">谁说程序猿不懂得浪漫.\n这说得太对了,至少我是.\n\n不过…</string>
+    <string name="hint_ask">You can write something here and I can receive it if you send.</string>
+
+    <string name="text1">谁说程序猿不懂得浪漫.\n这说得太对了,至少我是.\n我不会浪漫,不会哄你开心…</string>
     <string name="text2">我们在一起的200多天里\n虽然矛盾很多,但是我过得还算开心.\n很喜欢跟你在一起的日子(我就是变态).\n很喜欢跟你一起,比如…</string>
     <string name="text3">一起写代码…</string>
     <string name="demo">public class demo{\n\tpublic static void main(String args[]){\n\t\tSystem.out.println(\"I love U.\");\n\t}\n}</string>
     <string name="text4">一起手拖手走校道…</string>
     <string name="text5">一起玩消星星(这星星有点丑,但算是消星星原型了)…</string>
     <string name="text6">一起听音乐…</string>
+    <string name="text7">我真的很开心.\n接下来的日子,我会努力改掉以前的缺点.\n我真的很希望我们能正常点.\n我只想大家都过得开心点,幸福点…\n\n看完后有什么想说的?</string>
+
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">=_=/</string>
+    <string name="app_name">=_=//</string>
 
     <string name="action_exit">退出</string>
 
@@ -7,4 +7,8 @@
     <string name="last">上一页</string>
     <string name="play">播放</string>
     <string name="stop">停止</string>
+    <string name="send">发送</string>
+    <string name="call">拨打我电话</string>
+
+    <string name="hint_ask">想跟我说点什么都可以写~,你点发送后我就可以收到啦~</string>
 </resources>
